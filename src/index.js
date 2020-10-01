@@ -1,12 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import MyInfo from './components/MyInfo'
 
-let JSX =<ul>
-        <li>Milk</li>
-        <li>Bread</li>
-        <li>Nutela</li>
-        </ul>
 
-ReactDOM.render(JSX, document.getElementById('root'))
+
+ReactDOM.render(<MyInfo />, document.getElementById('root'))
 
