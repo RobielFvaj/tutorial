@@ -1,17 +1,17 @@
 import React from 'react'
 
-function MyInfo(){
+function MainContent(){
   return (
-  <div>
-    <h1>Robiel Tesfazghi</h1>
+  <main>
+    <h1>Main Content</h1>
     <p>nice try</p>
     <ul>
       <li>football</li>
       <li>Volleyball</li>
       <li>basketball</li>
     </ul>
-  </div>
+  </main>
   )
 }
 
-export default MyInfo
+export default MainContent
