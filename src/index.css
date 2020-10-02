@@ -22,3 +22,26 @@ code {
   justify-content: center;
   align-items: center;
 }
+
+.contacts {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact-card {
+  flex-basis: 250px;
+  margin: 20px;
+}
+
+.contact-card > img {
+  width: 100%;
+  height: auto;
+}
+
+.contact-card > h3 {
+  text-align: center;
+}
+
+.contact-card > p {
+  font-size: 12px;
+}
