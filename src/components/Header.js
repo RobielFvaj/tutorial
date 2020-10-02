@@ -3,7 +3,7 @@ import React from 'react'
 function Header (){
   return (
     <header>
-      <h3>This is my Navigator element</h3>
+      <h3 className="navbar">This is the header</h3>
     </header>
   )
 }
