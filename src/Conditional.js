@@ -17,7 +17,7 @@ class Conditional extends React.Component{
       this.setState({
         isLoading: false
       })
-    }, 1500)
+    }, 150)
   }
   handleClick (){
     this.setState(prevState => ({isLogging : !prevState.isLogging}))
